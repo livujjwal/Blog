@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.blog-footer-body {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+  display: flex;
+  background-image: url("./image/img-1.jpg");
+  width: 1386px;
+  height: 707px;
+  border-radius: 40px;
+  box-shadow: 0px 2px 2px #00000040;
+  position: relative;  
+}
+.blog-footer-part-2 {
+  position: absolute;
+  width: 751.0999755859375px;
+height: 392.70001220703125px;
+top: 150px;
+left: 691px;
+
+}
+.blog-footer-part-1 {
+    width: 524.65576171875px;
+height: 164.01585388183594px;
+top: 199.427978515625px;
+left: 120.18032836914062px;
+
+  /* border: 2px solid rgb(106, 63, 205); */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.blog-footer-section {
+    width: 524.65576171875px;
+height: 164.01585388183594px;
+
+  padding: 0px;
+  /* border: 2px solid rgb(21, 21, 20); */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+.blog-footer-h1 {
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  /* border: 2px solid rgb(63, 205, 115); */
+}
+.blog-footer-p{
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0px;
+  /* border: 2px solid peru; */
+}
+.blog-footer-img {
+  width: 100%;
+
+}
+.blog-footer-button {
+    margin-top: 100px;
+    left: 10p-x;
+  width: 251px;
+  height: 49px;
+  border-radius: 23.5px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: none;
+  color: white;
+  background: linear-gradient(91.71deg, #2c56aa 14.14%, #3bb08b 84.43%);
+}
